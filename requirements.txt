@@ -1,0 +1,3 @@
+# Backend and training dependencies. For the board, use RaspberryPi/requirements.txt separately.
+-r kids_language_2-main/requirements.txt
+-r Yolo_Raspberry-main/requirements.txt

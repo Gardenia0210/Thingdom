@@ -1,0 +1,4 @@
+# Replaces the vendored third-party source with its exact release.
+ultralytics==8.3.163
+# ONNX export only; NCNN export may request further platform-specific tools.
+onnx>=1.12.0,<1.18.0

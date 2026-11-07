@@ -1,0 +1,24 @@
+# Backend runtime dependencies, preserving the original agent versions.
+Django>=5.2,<5.3
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+psycopg2-binary==2.9.10
+psycopg[binary]
+psycopg-pool
+langchain==1.2.7
+langchain-core==1.2.7
+langchain-community==0.4.1
+langchain-openai==1.1.7
+langgraph==1.0.7
+langgraph-prebuilt==1.0.7
+langgraph-checkpoint==3.0.1
+langgraph-checkpoint-postgres==3.0.4
+langsmith==0.6.7
+python-dotenv==1.2.1
+djangorestframework-simplejwt==5.4.0
+pydantic==2.12.5
+pydantic-settings==2.12.0
+django-eventstream==5.3.3
+paho-mqtt==2.1.0
+typing-extensions
+gunicorn==25.0.1; sys_platform != 'win32'

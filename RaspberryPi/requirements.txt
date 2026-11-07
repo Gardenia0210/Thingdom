@@ -1,0 +1,14 @@
+# Install on a 64-bit Raspberry Pi OS environment.
+ultralytics==8.3.163
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=9.1
+paho-mqtt==2.1.0
+python-dotenv==1.2.1
+dashscope>=1.23.1,<2
+websockets>=14,<16
+PyAudio>=0.2.14
+spidev>=3.5
+lgpio>=0.2.2.0
+# Provides the RPi.GPIO API on Pi OS, including Pi 5. Do not co-install RPi.GPIO.
+rpi-lgpio>=0.6
